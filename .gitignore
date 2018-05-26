@@ -1,0 +1,22 @@
+node_modules
+package-lock.json
+yarn.lock
+logs
+*.log
+npm-debug.log*
+.eslintcache
+/dist
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Folder config file
+[Dd]esktop.ini
+
+# Ignore Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db

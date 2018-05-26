@@ -1,0 +1,25 @@
+<%= require('./partials/header.ejs')({title: 'Restaurant Info', htmlWebpackPluginCSS: htmlWebpackPlugin}) %>
+      <main id="maincontent">
+
+        <section id="map-container">
+        <div id="map"></div>
+        </section>
+
+        <section id="restaurant-container">
+
+        <img id="restaurant-img">
+        <p id="restaurant-cuisine"></p>
+        <p id="restaurant-address"></p>
+        </section>
+
+        <section id="restaurantopeninghours">
+        </section>
+
+        <section id="reviews-container">
+          <h2>Reviews</h2>
+          <ul id="reviews-list"></ul>
+        </section>
+
+      </main>
+
+<%= require('./partials/footer.ejs')({htmlWebpackPluginJS: htmlWebpackPlugin}) %>

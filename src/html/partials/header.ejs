@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+    <title><%= title %></title>    
+
+<% for (let css in htmlWebpackPluginCSS.files.css) { %>
+      <link rel="stylesheet" href="<%= htmlWebpackPluginCSS.files.css[css] %>" />
+    <% } %>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav id="nav-element">
+          <h1>
+          <a href="/">Restaurant Reviews</a>
+          </h1>
+        </nav>
+      </header>

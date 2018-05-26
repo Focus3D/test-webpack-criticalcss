@@ -1,0 +1,12 @@
+<%= require('./partials/header.ejs')({title: 'Restaurant Reviews', htmlWebpackPluginCSS: htmlWebpackPlugin}) %>
+      <main id="maincontent">
+        <section id="map-container">
+          <div id="map"></div>
+        </section>
+        <div class="filter-options">
+          <h2>Filter Results</h2>          
+        </div>
+        <section id ="resto-list">
+        </section>
+      </main>
+<%= require('./partials/footer.ejs')({htmlWebpackPluginJS: htmlWebpackPlugin}) %>
